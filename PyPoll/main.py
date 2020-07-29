@@ -2,7 +2,7 @@ import os as os
 import csv
 import statistics as stat
 
-pf = os.path.join("election_data.csv")
+pf = os.path.join('C:\\Users\display\Desktop\PythonHW\PyPoll\Resources\election_data.csv')
 
 # A list to capture the names of candidates
 candidateNames = []
