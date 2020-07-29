@@ -4,9 +4,9 @@ import csv
 import statistics as stat
 
 #joining path
-pf = os.path.join('C:\\Users\display\Desktop\PythonHomework\PyBank\Budget_data.csv')
+pf = os.path.join('C:\\Users\\display\Desktop\PythonHW\PyBank\Resources\Budget_data.csv')
 # open and read csv
-with open('C:\\Users\display\Desktop\PythonHomework\PyBank\Budget_data.csv', newline="") as csvfile:
+with open('C:\\Users\\display\Desktop\PythonHW\PyBank\Resources\Budget_data.csv', newline="") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     csv_header = next(csvfile)
     # skip header row
